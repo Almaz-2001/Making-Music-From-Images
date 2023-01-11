@@ -50,7 +50,7 @@ def makeScale(whichOctave, whichKey, whichScale):
     new_scale = scale_intervals[index:12] + scale_intervals[:index]
     
     #Choose scale
-    if whichScale == 'AEOLIAN':
+    if whichScale == 'Almaz':
         scale = [0, 2, 3, 5, 7, 8, 10]
     elif whichScale == 'BLUES':
         scale = [0, 2, 3, 4, 5, 7, 9, 10, 11]
